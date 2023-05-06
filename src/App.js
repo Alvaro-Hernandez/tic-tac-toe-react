@@ -51,3 +51,7 @@ function Board({xIsNext, squares, onPlay}) {
     </>
   );
 }
+
+export default function Game(){
+  
+}
