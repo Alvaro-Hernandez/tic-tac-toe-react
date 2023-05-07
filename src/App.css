@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 *{
   box-sizing: border-box;
 }
 
 body{
-  font-family: sans-serif;
   margin: 20px;
   padding: 0;
   color: #fff;
@@ -49,18 +50,19 @@ ul{
 }
 
 .square{
-  background: #fff;
-  border: 1px solid #999;
+  background: #0098bb;
+  border: 2px solid #f8f8f8;
   float: left;
-  font-size: 24px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
+  width: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 .board-row:after {
@@ -70,13 +72,62 @@ ul{
 }
 
 .status {
+  margin-top: 20px;
   margin-bottom: 10px;
+  font-size: 24px;
+  font-family: 'Luckiest Guy', cursive;
 }
+
 .game {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 14px;
+}
+
+.X{
+  color: #ffec16;
+}
+
+.O{
+  color: #ff2e04;
+}
+
+/*padding: 0.6em 2em;*/
+.btnTicTac {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #fdfdfd;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+  border: 0;
+  margin-bottom: 8px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnTicTac:hover,
+.btnTicTac:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.btnTicTac:active {
+  background: var(--color);
+  color: #fff;
 }

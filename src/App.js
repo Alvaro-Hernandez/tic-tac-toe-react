@@ -3,7 +3,7 @@ import "./App.css";
 
 function Square({value, onSquareClick}) {
   return (
-    <button className='square' onClick={onSquareClick}> {value} </button>
+    <button className='square' onClick={onSquareClick}> <span className={value}>{value}</span> </button>
   );
 }
 
@@ -76,8 +76,8 @@ export default function Game(){
       description = 'Go to game start';
     }
     return (
-      <li key={move}>
-        <button onClick={() => jumpTo(move)}>{description}</button>
+      <li key={move} className='liItem'>
+        <button onClick={() => jumpTo(move)} className='btnTicTac'>{description}</button>
       </li>
     )
   });
