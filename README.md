@@ -8,7 +8,7 @@
 - Permite a los jugadores revisar el historial de un juego y ver versiones anteriores del tablero de un juego.🦕
   ![enter image description here](https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp)
 
-# ¿Cómo puedes jugarla?🤔
+## ¿Cómo puedes jugarlo?🤔
 
 🤓Podemos jugar este juego clonando el repositorio e instalando las dependencias necesarias o puedes jugarlo [Aqui](https://tictactoe0701.netlify.app/)
 
