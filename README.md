@@ -1,16 +1,16 @@
 # Tic Tac Toe React ⚛️
 
-¡Holaaaaa Dev! Bienvenido a mi Tic Tac Toe creado con React, en el cual se aplican de Hook y la creación de componentes. En este juego hace lo siguiente:
+¡Holaaaaa Dev! Bienvenido a mi Tic Tac Toe creado con React, en el cual se aplican Hooks y la creación de componentes. En este juego podra hacer lo siguiente:
 
-- Te permite jugar tres en raya,❤️
-- Indica cuando un jugador ha ganado el juego,🤓
-- Almacena el historial de un juego a medida que avanza un juego,✅
+- Te permite jugar tres en raya.❤️
+- Indica cuando un jugador ha ganado el juego.🤓
+- Almacena el historial de un juego a medida que avanza un juego.✅
 - Permite a los jugadores revisar el historial de un juego y ver versiones anteriores del tablero de un juego.🦕
   ![enter image description here](https://www.gamesver.com/wp-content/uploads/2022/02/Hand-drawn-tic-tac-toe-game.png.webp)
 
 ## ¿Cómo puedes jugarlo?🤔
 
-🤓Podemos jugar este juego clonando el repositorio e instalando las dependencias necesarias o puedes jugarlo [Aqui](https://tictactoe0701.netlify.app/)
+🤓Puedes jugar este juego clonando el repositorio e instalando las dependencias necesarias o puedes jugarlo [Aqui](https://tictactoe0701.netlify.app/)
 
 ## Sigue lo siguientes pasos para correrlo de manera local.🫡
 
